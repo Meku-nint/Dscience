@@ -23,4 +23,17 @@ def list_info(fruits):
     for fruit in fruits:
         print (fruit)
 my_fruits = ["apple", "banana", "cherry"]
-list_info(my_fruits) # this will print the fruits in the list my_fruits which are passed as an argument to the function
+list_info(my_fruits) # this will print the fruits in the list my_fruits which are passed as an argument to the functio
+# unpack tuple is the process of assigning the values of a tuple to individual variables. this allows you to access the values in the tuple more easily and use them in your code.
+def unpack_tuple(a,b,c):
+    print(a+b+c)
+my_tuple = (1, 2, 3)
+unpack_tuple(*my_tuple) # this will print the sum of the values in the tuple
+
+# *args is a special syntax in python that allows a function to accept an arbitrary number of positional arguments.
+
+def sum_all(*args):
+    total = 0
+    for num in args:
+        total += num
+    return total
