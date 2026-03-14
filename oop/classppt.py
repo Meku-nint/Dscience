@@ -1,0 +1,2 @@
+# properties in oop are the attributes of an object. they are defined in the __init__ method and are accessed using the self keyword. they can be of any data type and can be modified after the object is created.
+# class methods are functions that belong to a class and they define the behavior of hte objects created from the calss.
