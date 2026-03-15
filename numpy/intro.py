@@ -12,3 +12,8 @@ print(zero_dim_array.ndim)
 one_dim_array=np.array([1,2,3,4,5])
 print(one_dim_array)
 print(one_dim_array.ndim)
+
+# two dimensional array (matrix) an array with two axes (rows and columns). it is represented as a list of lists in python. each inner list represents a row of the matrix.
+two_dim_array=np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(two_dim_array)
+print(two_dim_array.ndim)
