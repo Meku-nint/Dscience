@@ -7,3 +7,8 @@ import numpy as np
 zero_dim_array=np.array(42)
 print(zero_dim_array) 
 print(zero_dim_array.ndim) 
+
+# one dimensional array (vector)
+one_dim_array=np.array([1,2,3,4,5])
+print(one_dim_array)
+print(one_dim_array.ndim)
