@@ -7,3 +7,9 @@ x=random.choice([3,4,5,6,7,8,9], p=[0.9,0.0,0.0,0.0,0.0,0.05,0.05])
 
 print(x)
 # so this one most of the time the result will be 3 b/c the probability of 3 is 0.9 and the probability of other numbers is 0.0 or 0.05. so the result will be 3 most of the time and sometimes it will be 8 or 9.
+
+# random permutations is an arrangement of elements.
+# shuffle method is a method that is used to generate random permutations of a given array.
+arr = [1, 2, 3, 4, 5]
+random.shuffle(arr)
+print(arr) # this will print a random permutation of the array arr. the output will be different every time you run the code.
