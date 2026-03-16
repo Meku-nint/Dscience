@@ -13,3 +13,9 @@ print(x)
 arr = [1, 2, 3, 4, 5]
 random.shuffle(arr)
 print(arr) # this will print a random permutation of the array arr. the output will be different every time you run the code.
+
+# permutation () method returns a re-arranged array and leaves the original array as un-changed.
+arr = [1, 2, 3, 4, 5]
+permuted_arr = random.permutation(arr)
+print(permuted_arr)
+print("original array" ,arr)
